@@ -12,7 +12,7 @@ const Navbar = () => {
       <nav className="flex flex-wrap items-center ">
         <Link href="/">
           <a className="items-center p-2 mr-4">
-            <h1 className="text-xl font-normal font-badScript font-cursive">
+            <h1 className="text-xl font-bold text-navItems font-badScript font-cursive">
               Mansi K.
             </h1>
           </a>
