@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Meta from "../components/Layout/Meta";
 
 export default function Home() {
