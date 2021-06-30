@@ -10,10 +10,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* imported google fonts
-        font-family: 'Poppins', sans-serif;
-        font-family: 'Roboto', sans-serif;
-          */}
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
           <link
