@@ -45,25 +45,25 @@ const Navbar = () => {
          w-full lg:flex lg:flex-grow lg:w-auto`}
         >
           <div className="flex flex-col items-start w-full lg:flex-row lg:ml-auto lg:w-auto lg:items-center lg:h-auto">
-            <div className={router.pathname == "/" ? "text-brand" : ""}>
-              <Link href="/">
-                <a className="items-center w-full px-3 py-2 font-medium rounded font-poppins text-navItems lg:w-auto ">
-                  Home
-                </a>
-              </Link>
-            </div>
+            {/* <div className={router.pathname == "/" ? "text-brand" : ""}> */}
             <Link href="/">
-              <a className="items-center justify-center w-full px-3 py-2 font-medium rounded font-poppins text-navItems lg:w-auto">
+              <a className="items-center w-full p-2 mr-4 font-medium rounded font-poppins text-navItems lg:w-auto ">
+                Home
+              </a>
+            </Link>
+            {/* </div> */}
+            <Link href="/">
+              <a className="items-center justify-center w-full p-2 mr-4 font-medium rounded font-poppins text-navItems lg:w-auto">
                 About
               </a>
             </Link>
             <Link href="/">
-              <a className="items-center justify-center w-full px-3 py-2 font-medium rounded font-poppins text-navItems lg:w-auto">
+              <a className="items-center justify-center w-full p-2 mr-4 font-medium rounded font-poppins text-navItems lg:w-auto">
                 Project
               </a>
             </Link>
             <Link href="/">
-              <a className="items-center justify-center w-full px-3 py-2 font-medium rounded font-poppins text-navItems lg:w-auto">
+              <a className="items-center justify-center w-full p-2 mr-4 font-medium rounded font-poppins text-navItems lg:w-auto">
                 Contact
               </a>
             </Link>
