@@ -6,10 +6,13 @@ module.exports = {
       colors: {
         brand: "#7140FF",
         brandOutline: "#9B51E0",
+        navItems: "#151517",
       },
       fontFamily: {
         poppins: ["Poppins"],
         roboto: ["Roboto"],
+        badScript: ["Bad Script"],
+        cursive: ["cursive"],
       },
     },
   },
