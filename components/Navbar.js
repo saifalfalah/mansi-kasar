@@ -1,11 +1,16 @@
 import Link from "next/link";
 import { useState } from "react";
+import { useRouter } from "next/router";
+
 const Navbar = () => {
   // states for open/closed mobile nav
   const [open, setOpen] = useState(false);
   const handleClick = () => {
     setOpen(!open);
   };
+  // router for active navitem
+  const router = useRouter();
+
   return (
     <>
       {/* mobile first */}
@@ -40,11 +45,13 @@ const Navbar = () => {
          w-full lg:flex lg:flex-grow lg:w-auto`}
         >
           <div className="flex flex-col items-start w-full lg:flex-row lg:ml-auto lg:w-auto lg:items-center lg:h-auto">
-            <Link href="/">
-              <a className="items-center w-full px-3 py-2 font-medium rounded font-poppins text-navItems lg:w-auto ">
-                Home
-              </a>
-            </Link>
+            <div className={router.pathname == "/" ? "text-brand" : ""}>
+              <Link href="/">
+                <a className="items-center w-full px-3 py-2 font-medium rounded font-poppins text-navItems lg:w-auto ">
+                  Home
+                </a>
+              </Link>
+            </div>
             <Link href="/">
               <a className="items-center justify-center w-full px-3 py-2 font-medium rounded font-poppins text-navItems lg:w-auto">
                 About
