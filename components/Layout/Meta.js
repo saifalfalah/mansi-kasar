@@ -2,7 +2,7 @@ import Head from "next/head";
 const Meta = (props) => {
   return (
     <Head>
-      <title>{props.title} | SIFK</title>
+      <title>{props.title} </title>
 
       <meta name="description" content={props.desc} />
       <link rel="icon" type="image/png/x-icon" href="/favicon32.png" />
