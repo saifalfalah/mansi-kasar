@@ -7,6 +7,8 @@ module.exports = {
         brand: "#7140FF",
         brandOutline: "#9B51E0",
         navItems: "#151517",
+        heroP: "#828282",
+        heroH: "#2F2F2F",
       },
       fontSize: {
         xss: ["8px", "12px"],
