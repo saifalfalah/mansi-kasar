@@ -57,7 +57,7 @@ const Navbar = () => {
                 About
               </a>
             </Link>
-            <Link href="/">
+            <Link href="/projects">
               <a className="items-center justify-center w-full p-2 mr-4 font-medium rounded font-poppins text-navItems lg:w-auto">
                 Project
               </a>
