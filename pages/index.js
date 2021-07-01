@@ -1,9 +1,12 @@
+import HeroSection from "../components/homePage/HeroSection";
+import IconsComp from "../components/homePage/IconsComp";
 import Meta from "../components/Layout/Meta";
 const index = () => {
   return (
-    <div className="bg-red-400 lg:h-full">
+    <div className="h-screen bg-red-400 lg:pl-40 lg:pr-16">
       <Meta title="Mansi K. | Home" desc="Mani K UI/UX Portfolio" />
-      <h1 className="text-brand font-poppins">Hello World</h1>
+      <HeroSection />
+      <IconsComp />
     </div>
   );
 };
