@@ -1,5 +1,5 @@
 import HeroSection from "../components/HomeView/HeroComp";
-import IconsComp from "../components/HomeView/IconsComp";
+import IconsComp from "../components/HomeView/SkillsComp";
 import Meta from "../components/Layout/Meta";
 const Home = () => {
   return (
