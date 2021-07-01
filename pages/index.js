@@ -1,5 +1,5 @@
-import HeroSection from "../components/HomePage/HeroSection";
-import IconsComp from "../components/HomePage/IconsComp";
+import HeroSection from "../components/HomeView/HeroSection";
+import IconsComp from "../components/HomeView/IconsComp";
 import Meta from "../components/Layout/Meta";
 const Home = () => {
   return (
