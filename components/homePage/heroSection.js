@@ -9,7 +9,7 @@ const heroSection = () => {
           Hey!
         </p>
         <h1 className="mb-4 text-4xl font-semibold space lg:text-5xl text-heroH ">
-          I am <span className="text-brand">Mansi Kasar</span>, an UI/UX
+          {""}I'm <span className="text-brand">Mansi Kasar</span>, an UI/UX
           Designer.
         </h1>
         <p className="mb-4 text-base font-normal text-heroH lg:mb-32 lg:text-lg">
