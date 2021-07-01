@@ -1,4 +1,4 @@
-import HeroSection from "../components/HomeView/HeroSection";
+import HeroSection from "../components/HomeView/HeroComp";
 import IconsComp from "../components/HomeView/IconsComp";
 import Meta from "../components/Layout/Meta";
 const Home = () => {
