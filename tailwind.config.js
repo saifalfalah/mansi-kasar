@@ -13,6 +13,9 @@ module.exports = {
       fontSize: {
         xss: ["8px", "12px"],
       },
+      spacing: {
+        97: "33.75rem",
+      },
       fontFamily: {
         poppins: ["Poppins"],
         roboto: ["Roboto"],
