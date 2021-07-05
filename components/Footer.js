@@ -4,7 +4,7 @@ const Footer = () => {
     <>
       <footer className="h-auto px-20 pt-20 pb-10 text-white bg-black lg:h-80 text lg:pt-24 lg:pr-52 lg: lg:pl-48">
         {/* main grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-9 lg:gap-x-48">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-9 ">
           <div className="flex flex-col">
             <h1 className="mb-3 text-sm font-bold text-white font-badScript ">
               Mansi K.
