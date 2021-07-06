@@ -19,12 +19,16 @@ module.exports = {
       },
       maxWidth: {
         card: "33.75rem",
+        projectRoute: "81.875rem",
       },
       fontFamily: {
         poppins: ["Poppins"],
         roboto: ["Roboto"],
         badScript: ["Bad Script"],
         cursive: ["cursive"],
+      },
+      screens: {
+        "1xl": "1440px",
       },
     },
   },
