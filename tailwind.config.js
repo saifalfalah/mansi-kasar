@@ -9,12 +9,16 @@ module.exports = {
         navItems: "#151517",
         heroP: "#828282",
         heroH: "#2F2F2F",
+        card: "#1C1C1C",
       },
       fontSize: {
         xss: ["8px", "12px"],
       },
       spacing: {
         97: "33.75rem",
+      },
+      maxWidth: {
+        card: "33.75rem",
       },
       fontFamily: {
         poppins: ["Poppins"],
