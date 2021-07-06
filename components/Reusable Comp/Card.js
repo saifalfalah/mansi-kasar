@@ -33,7 +33,7 @@ const Card = (props) => {
           </svg>
           <p className="font-medium">
             <Link href={props.caseLink}>
-              <a>View Study Case</a>
+              <a>View Case Study</a>
             </Link>
           </p>
         </div>
