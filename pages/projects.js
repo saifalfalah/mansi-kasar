@@ -1,9 +1,8 @@
 import Meta from "../components/Layout/Meta";
 const project = () => {
   return (
-    <div className="bg-red-400">
+    <div className=" lg:pl-36 lg:pr-16">
       <Meta title="Mansi K. | Projects" desc="Mani K UI/UX Portfolio" />
-      <h1 className="text-brand font-poppins">Hello World</h1>
     </div>
   );
 };
