@@ -1,7 +1,7 @@
 import Image from "next/image";
 const IconsComp = () => {
   return (
-    <div className="w-full h-auto mt-32 space-y-2">
+    <div className="w-full h-auto mt-16 space-y-2 md:mt-32">
       <h1 className="font-medium text-center font-poppins lg:text-lg ">
         My Skills
       </h1>
