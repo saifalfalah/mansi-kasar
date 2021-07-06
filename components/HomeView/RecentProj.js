@@ -28,14 +28,16 @@ const RecentProj = () => {
     },
   ];
   return (
-    <div>
-      <div className="flex">
-        <h1> Recent Projects</h1>
-        <button className="flex items-center px-4 py-2 space-x-2 text-white rounded-lg bg-brand">
+    <div className="p-4 mt-16 mb-10 lg:mt-32">
+      <div className="flex items-center mb-10 lg:h-16 lg:mb-16">
+        <h1 className="text-4xl font-semibold font-poppins lg:text-5xl">
+          Recent Projects
+        </h1>
+        <button className="flex items-center px-4 py-2 ml-auto space-x-2 text-white rounded-lg bg-brand">
           <span className="text-sm font-bold lg:text-base">View More</span>
         </button>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-7 gap-y-7">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-7 gap-y-7 md:gap-x-2 lg:gap-x-3 xl:gap-x-1 ">
         {projectData.map((proj, index) => (
           <Card
             key={index}
