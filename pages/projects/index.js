@@ -1,6 +1,6 @@
-import Meta from "../components/Layout/Meta";
-import ProjectList from "../components/ProjectView/AllProj";
-import SideNav from "../components/ProjectView/SideNav";
+import Meta from "../../components/Layout/Meta";
+import ProjectList from "../../components/ProjectView/AllProj";
+import SideNav from "../../components/ProjectView/SideNav";
 const project = () => {
   return (
     // lg:pl-36 lg:pr-16 1xl:max-w-projectRoute
