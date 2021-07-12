@@ -52,7 +52,7 @@ const Navbar = () => {
               </a>
             </Link>
             {/* </div> */}
-            <Link href="/">
+            <Link href="/about">
               <a className="items-center justify-center w-full p-2 mr-4 font-medium rounded font-poppins text-navItems lg:w-auto">
                 About
               </a>
