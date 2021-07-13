@@ -43,7 +43,7 @@ const Roles = () => {
       </ul>
       <button
         href="/projects"
-        className="flex items-center justify-between p-8 text-white bg-black rounded-2xl"
+        className="flex items-center justify-between p-8 mt-4 text-white bg-black lg:mt-0 rounded-2xl"
       >
         <h1 className="text-4xl font-semibold w-60">
           Want to see my projects?
