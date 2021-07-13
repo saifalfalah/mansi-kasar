@@ -21,7 +21,7 @@ const Roles = () => {
   ];
 
   return (
-    <div className="flex flex-col justify-between md:max-w-md font-poppins text-heroH">
+    <div className="flex flex-col justify-between max-w-xs md:max-w-md font-poppins text-heroH">
       <h1 className="mb-8 text-3xl font-semibold lg:mb-10 lg:text-5xl">
         Roles <br /> I&apos;ve worked as
       </h1>
