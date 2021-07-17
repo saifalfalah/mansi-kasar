@@ -15,7 +15,9 @@ module.exports = {
         divider: "#717171",
         exp: "#121212",
       },
-
+      inset: {
+        "95percent": "95%",
+      },
       fontSize: {
         xss: ["8px", "12px"],
       },
