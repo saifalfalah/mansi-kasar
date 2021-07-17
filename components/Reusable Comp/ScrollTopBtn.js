@@ -1,8 +1,15 @@
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import { FaArrowCircleUp } from "react-icons/fa";
 
 const ScrollTopBtn = () => {
   const [showScroll, setShowScroll] = useState(false);
+  // useEffect is executed on the client, so has acccess to window.
+  useEffect(() => {
+    window.addEventListener("scroll", checkScrollTop);
+    return function cleanup() {
+      window.removeEventListener("scroll", checkScrollTop);
+    };
+  });
 
   const checkScrollTop = () => {
     if (!showScroll && window.pageYOffset > 400) {
@@ -11,12 +18,9 @@ const ScrollTopBtn = () => {
       setShowScroll(false);
     }
   };
-
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
-
-  window.addEventListener("scroll", checkScrollTop);
 
   return (
     <div className={`${showScroll ? "flex h-10 px-4 justify-end" : "hidden"}`}>
