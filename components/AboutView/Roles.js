@@ -49,7 +49,6 @@ const Roles = () => {
           Want to see my projects?
         </h1>
         <svg
-          c
           width="48"
           height="49"
           viewBox="0 0 48 49"
