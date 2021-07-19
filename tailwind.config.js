@@ -14,6 +14,7 @@ module.exports = {
         bar: "#E5E5E5",
         divider: "#717171",
         exp: "#121212",
+        expSec: "#414141",
       },
       inset: {
         "95percent": "95%",
@@ -60,6 +61,7 @@ module.exports = {
       maxWidth: {
         card: "33.75rem",
         projectRoute: "81.875rem",
+        caseStudyCard: "57.8rem",
       },
       fontFamily: {
         poppins: ["Poppins"],
