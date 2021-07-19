@@ -4,22 +4,22 @@ const AllProj = () => {
   const projectData = [
     {
       title: "Coded Websites",
-      projLink: "https://www.linkedin.com/in/mansi-kasar-363b19184/",
+      projLink: "/projects/coded-websites",
       imgSrc: "/assets/all-projects/1.png",
     },
     {
       title: "UI/UX Case Studies",
-      projLink: "https://www.linkedin.com/in/mansi-kasar-363b19184/",
+      projLink: "/projects/uiux-casestudies",
       imgSrc: "/assets/all-projects/2.png",
     },
     {
       title: "UI/UX Designs",
-      projLink: "https://www.linkedin.com/in/mansi-kasar-363b19184/",
+      projLink: "/projects/uiux-designs",
       imgSrc: "/assets/all-projects/3.png",
     },
     {
       title: "Logo & Graphic Desgin",
-      projLink: "https://www.linkedin.com/in/mansi-kasar-363b19184/",
+      projLink: "/projects/logo-graphic-design",
       imgSrc: "/assets/all-projects/4.png",
     },
   ];
