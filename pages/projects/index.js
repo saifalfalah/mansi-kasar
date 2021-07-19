@@ -5,7 +5,7 @@ import SideNav from "../../components/ProjectView/SideNav";
 const project = () => {
   return (
     // lg:pl-36 lg:pr-16 1xl:max-w-projectRoute
-    <ProjectLayout title="test">
+    <ProjectLayout title="Mansi K. | Projects">
       <ProjectList />
     </ProjectLayout>
   );

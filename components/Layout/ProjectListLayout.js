@@ -1,7 +1,7 @@
 import SideNav from "../ProjectView/SideNav";
 import Meta from "./Meta";
 
-const ProjectLayout = (props) => {
+const ProjectListLayout = (props) => {
   return (
     <div className="p-4 lg:px-20 lg:mt-32 lg:mb-12">
       <Meta title={props.title} />
@@ -15,4 +15,4 @@ const ProjectLayout = (props) => {
   );
 };
 
-export default ProjectLayout;
+export default ProjectListLayout;

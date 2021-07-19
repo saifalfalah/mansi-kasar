@@ -24,9 +24,11 @@ const projectCard = (props) => {
       <div className="flex justify-between">
         <div className="flex items-center space-x-2">
           <p className="font-medium">
-            <Link href={props.projLink}>
-              <a>View Project</a>
-            </Link>
+            <div>
+              <Link href={props.projLink} passHref>
+                <a>View Project</a>
+              </Link>
+            </div>
           </p>
         </div>
       </div>
