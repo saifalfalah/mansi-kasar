@@ -1,4 +1,24 @@
+import Link from "next/link";
+
 const sidenav = () => {
+  const sideNavItems = [
+    {
+      name: "Coded websites",
+      path: "/projects/coded-websites",
+    },
+    {
+      name: "UI/UX Case Stuides",
+      path: "/projects/uiux-casestudies",
+    },
+    {
+      name: "UI/UX Designs",
+      path: "/projects/uiux-designs",
+    },
+    {
+      name: "Logo & Graphic Design ",
+      path: "/projects/logo-graphic-design",
+    },
+  ];
   return (
     <div className="w-48 font-poppins text-heroH">
       <div className="mb-6 text-xl font-normal tracking-wider uppercase ">
@@ -74,12 +94,13 @@ const sidenav = () => {
         </li>
       </ul>
       <h1 className="mb-6 font-bold popp">Projects</h1>
-      <ul className="space-y-4">
-        <li>Coded websites</li>
-        <li>UI/UX Case Stuides</li>
-        <li>UI/UX Designs</li>
-        <li>Logo & Graphic Design </li>
-      </ul>
+      <div className="flex flex-col space-y-4">
+        {sideNavItems.map((item, index) => (
+          <Link key={index} href={item.path}>
+            <a>{item.name}</a>
+          </Link>
+        ))}
+      </div>
     </div>
   );
 };
