@@ -1,0 +1,31 @@
+import Image from "next/image";
+import Link from "next/link";
+const CaseStudyCard = () => {
+  return (
+    <div className="flex flex-col justify-between font-poppins lg:flex-row ">
+      <div className="max-w-xs space-y-3">
+        <h1 className="text-xl font-medium text-exp lg:text-3xl">Tassel</h1>
+        <p className=" lg:text-lg text-expSec">
+          UI & UX design for a fashion marketplace.Personal conceptual side
+          project.
+        </p>
+        <Link href="/" passHref>
+          <button className="px-4 py-3 text-white bg-brand rounded-3xl ">
+            Read Case Study
+          </button>
+        </Link>
+      </div>
+      <div className="max-w-md max-h-60">
+        <Image
+          src="/assets/all-projects/uixCaseStudy/1.png"
+          width="464"
+          height="236"
+          alt="Picture of dog"
+          className="rounded-3xl"
+        />
+      </div>
+    </div>
+  );
+};
+
+export default CaseStudyCard;
