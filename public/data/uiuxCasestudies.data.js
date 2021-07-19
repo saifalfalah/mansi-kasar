@@ -1,23 +1,23 @@
 export const uiuxCaseList = [
   {
     id: 0,
-    title: "Best UI/UX tools for 2021",
+    title: "Tassel 1",
     summary:
-      "From figma to XD, here i am gonna talk about the best tools for UI/UX design in 2020.",
-    blogLink: "https://google.com",
+      "UI & UX design for a fashion marketplace. Personal conceptual side project.",
+    imgSrc: "/assets/all-projects/uixCaseStudy/1.png",
   },
   {
     id: 1,
-    title: "Best UI/UX tools for 2021",
+    title: "Tassel 2",
     summary:
-      "From figma to XD, here i am gonna talk about the best tools for UI/UX design in 2020.",
-    blogLink: "https://google.com",
+      "UI & UX design for a fashion marketplace. Personal conceptual side project.",
+    imgSrc: "/assets/all-projects/uixCaseStudy/2.png",
   },
   {
     id: 2,
-    title: "How to make Glass effect in figma",
+    title: "Tassel 3",
     summary:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt sed consequat, lacus, in metus, porttitor justo.",
-    blogLink: "https://google.com",
+      "UI & UX design for a fashion marketplace. Personal conceptual side project.",
+    imgSrc: "/assets/all-projects/uixCaseStudy/3.png",
   },
 ];
