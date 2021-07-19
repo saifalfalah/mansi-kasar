@@ -5,13 +5,17 @@ const projectCard = (props) => {
   return (
     <div className="flex flex-col space-y-3 max-w-card font-poppins">
       <div className="">
-        <Image
-          src={props.imgSrc}
-          width="540"
-          height="489"
-          alt="Picture of dog"
-          className="rounded-3xl"
-        />
+        <Link href={props.projLink} passHref>
+          <a>
+            <Image
+              src={props.imgSrc}
+              width="540"
+              height="489"
+              alt="Picture of dog"
+              className="rounded-3xl"
+            />
+          </a>
+        </Link>
       </div>
       <h1 className="text-lg font-semibold text-card md:text-2xl ">
         {props.title}
