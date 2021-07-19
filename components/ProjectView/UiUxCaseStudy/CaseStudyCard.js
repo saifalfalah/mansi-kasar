@@ -3,7 +3,7 @@ import Link from "next/link";
 const CaseStudyCard = () => {
   return (
     <div className="flex flex-col justify-between font-poppins lg:flex-row ">
-      <div className="max-w-xs space-y-3">
+      <div className="order-2 max-w-xs space-y-3 lg:order-none ">
         <h1 className="text-xl font-medium text-exp lg:text-3xl">Tassel</h1>
         <p className=" lg:text-lg text-expSec">
           UI & UX design for a fashion marketplace.Personal conceptual side
@@ -15,7 +15,7 @@ const CaseStudyCard = () => {
           </button>
         </Link>
       </div>
-      <div className="max-w-md max-h-60">
+      <div className="order-1 max-w-md max-h-60 lg:order-none">
         <Image
           src="/assets/all-projects/uixCaseStudy/1.png"
           width="464"
