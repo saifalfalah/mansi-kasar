@@ -4,7 +4,11 @@ import CaseStudyCard from "../../../components/ProjectView/UiUxCaseStudy/CaseStu
 const uiuxCaseStudies = () => {
   return (
     <ProjectListLayout title="UI/UX Case Studies">
-      <CaseStudyCard />
+      <div className="flex flex-col items-center space-y-20 lg:items-stretch lg:flex-col lg:space-y-28">
+        <CaseStudyCard />
+        <CaseStudyCard />
+        <CaseStudyCard />
+      </div>
     </ProjectListLayout>
   );
 };
