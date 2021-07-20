@@ -5,22 +5,22 @@ const AllProj = () => {
     {
       title: "Coded Websites",
       projLink: "/projects/coded-websites/",
-      imgSrc: "/assets/all-projects/1.png",
+      imgSrc: "/assets/all-projects/projectHome/1.png",
     },
     {
       title: "UI/UX Case Studies",
       projLink: "/projects/uiux-casestudies/",
-      imgSrc: "/assets/all-projects/2.png",
+      imgSrc: "/assets/all-projects/projectHome/2.png",
     },
     {
       title: "UI/UX Designs",
       projLink: "/projects/uiux-designs/",
-      imgSrc: "/assets/all-projects/3.png",
+      imgSrc: "/assets/all-projects/projectHome/3.png",
     },
     {
       title: "Logo & Graphic Desgin",
       projLink: "/projects/logo-graphic-design/",
-      imgSrc: "/assets/all-projects/4.png",
+      imgSrc: "/assets/all-projects/projectHome/4.png",
     },
   ];
   return (
