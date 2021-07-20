@@ -13,7 +13,7 @@ const WebsitesCard = (props) => {
           className="rounded-3xl"
         />
       </div>
-      <div className="max-w-sm space-y-3 lg:ml-9 xl:ml-0">
+      <div className="max-w-sm space-y-5 lg:ml-9 xl:ml-0">
         <h1 className="text-xl font-medium text-exp lg:text-3xl">
           {props.title}
         </h1>
