@@ -25,6 +25,7 @@ const CaseStudyCard = (props) => {
           height="2000"
           alt={props.title}
           className="rounded-3xl"
+          quality="100"
         />
       </div>
     </div>
