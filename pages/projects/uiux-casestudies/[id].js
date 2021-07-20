@@ -1,5 +1,5 @@
 // import { uiuxCaseList } from "../../../components/data/uiuxCasestudies.data";
-import { uiuxDesignList } from "../../../data/uiuxDesign.data";
+import { uiuxDesignList } from "/data/uiuxCasestudies.data";
 import ProjectListLayout from "../../../components/Layout/ProjectListLayout";
 import Image from "next/image";
 export const getStaticProps = async ({ params }) => {
@@ -9,26 +9,26 @@ export const getStaticProps = async ({ params }) => {
   return {
     props: {
       //return the id which is the first index(0)
-      singleDesign: caseLists[0],
+      singleCase: caseLists[0],
     },
     revalidate: 10,
   };
 };
 export const getStaticPaths = async () => {
-  const paths = uiuxDesignList.map((singleDesign) => ({
-    params: { id: singleDesign.id.toString() },
+  const paths = uiuxDesignList.map((singleCase) => ({
+    params: { id: singleCase.id.toString() },
   }));
   return { paths, fallback: false };
 };
 
-const CaseStudy = ({ singleDesign }) => {
+const CaseStudy = ({ singleCase }) => {
   return (
     <ProjectListLayout>
       <h1 className="text-xl font-medium text-exp lg:text-3xl">
-        {singleDesign.title}
+        {singleCase.title}
       </h1>
       <Image
-        src={singleDesign.contentSrc}
+        src={singleCase.contentSrc}
         alt="Picture of the author"
         layout="responsive"
         width={200}
