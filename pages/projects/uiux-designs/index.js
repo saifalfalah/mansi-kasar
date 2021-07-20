@@ -1,6 +1,6 @@
 import ProjectListLayout from "../../../components/Layout/ProjectListLayout";
 import DesignCard from "../../../components/ProjectView/UiUxDesign/DesignCard";
-import { uiuxDesignList } from "../../../data/uiuxDesign.data";
+import { uiuxDesignList } from "/data/uiuxDesign.data";
 const uiuxDesigns = ({ data }) => {
   // console.log(data);
   return (
