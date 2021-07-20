@@ -9,7 +9,7 @@ const Card = (props) => {
           src={props.imgSrc}
           width="540"
           height="489"
-          alt="Picture of dog"
+          alt={props.title}
           className="rounded-3xl"
         />
       </div>
