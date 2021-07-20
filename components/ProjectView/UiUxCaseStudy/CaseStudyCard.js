@@ -20,7 +20,7 @@ const CaseStudyCard = (props) => {
       </div>
       <div className="order-1 max-w-md max-h-60 lg:order-none">
         <Image
-          src={props.imgSrc}
+          src={props.thumbnailSrc}
           width="464"
           height="236"
           alt={props.title}
