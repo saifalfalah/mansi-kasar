@@ -1,6 +1,6 @@
 import ProjectListLayout from "../../../components/Layout/ProjectListLayout";
 import WebsitesCard from "../../../components/ProjectView/CodedWebsites/WebsitesCard";
-import { codedWebsiteList } from "/data/codedWebsite.data";
+import { codedWebsiteList } from "../../../components/data/codedWebsite.data";
 const codedWebsites = ({ data }) => {
   // console.log(data);
   return (

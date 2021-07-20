@@ -1,5 +1,6 @@
 // import { uiuxCaseList } from "../../../components/data/uiuxCasestudies.data";
-import { uiuxCaseList } from "/data/uiuxCasestudies.data";
+import { uiuxCaseList } from "../../../components/data/uiuxCasestudies.data";
+
 import ProjectListLayout from "../../../components/Layout/ProjectListLayout";
 import Image from "next/image";
 export const getStaticProps = async ({ params }) => {

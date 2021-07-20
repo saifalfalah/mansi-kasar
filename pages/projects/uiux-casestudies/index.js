@@ -1,6 +1,6 @@
 import ProjectListLayout from "../../../components/Layout/ProjectListLayout";
 import CaseStudyCard from "../../../components/ProjectView/UiUxCaseStudy/CaseStudyCard";
-import { uiuxCaseList } from "/data/uiuxCasestudies.data";
+import { uiuxCaseList } from "../../../components/data/uiuxCasestudies.data";
 const uiuxCaseStudies = ({ data }) => {
   // console.log(data);
   return (
