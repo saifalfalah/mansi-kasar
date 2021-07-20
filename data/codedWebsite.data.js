@@ -5,7 +5,7 @@ export const codedWebsiteList = [
     summary: "Validates credit card numbers using Lunh’s Algorithm test",
     viewLink: "https://google.com",
     gitLink: "https://github.com",
-    thumbnailImg: "",
+    thumbnailImg: "/public/assets/all-projects/codedWebsites/1.png",
   },
   {
     id: 1,
@@ -13,7 +13,7 @@ export const codedWebsiteList = [
     summary: "Validates credit card numbers using Lunh’s Algorithm test",
     viewLink: "https://google.com",
     gitLink: "https://github.com",
-    thumbnailImg: "",
+    thumbnailImg: "/public/assets/all-projects/codedWebsites/2.png",
   },
   {
     id: 2,
@@ -21,6 +21,6 @@ export const codedWebsiteList = [
     summary: "Validates credit card numbers using Lunh’s Algorithm test",
     viewLink: "https://google.com",
     gitLink: "https://github.com",
-    thumbnailImg: "",
+    thumbnailImg: "/public/assets/all-projects/codedWebsites/3.png",
   },
 ];
