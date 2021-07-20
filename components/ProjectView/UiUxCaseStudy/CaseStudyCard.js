@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 const CaseStudyCard = (props) => {
   return (
-    <div className="flex flex-col justify-between font-poppins lg:flex-row ">
+    <div className="flex flex-col justify-between max-w-4xl font-poppins lg:flex-row ">
       <div className="order-2 max-w-xs space-y-3 lg:order-none ">
         <h1 className="text-xl font-medium text-exp lg:text-3xl">
           {props.title}
