@@ -1,6 +1,7 @@
-import { uiuxDesignList } from "/data/uiuxDesign.data";
 import ProjectListLayout from "../../../components/Layout/ProjectListLayout";
 import Image from "next/image";
+import { uiuxDesignList } from "../../../components/data/uiuxDesign.data";
+
 export const getStaticProps = async ({ params }) => {
   //put the uiuxDesignList as caseLists and filter out the id and makse sure its the parsm.id
   const designLists = uiuxDesignList.filter(
