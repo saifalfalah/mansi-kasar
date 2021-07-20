@@ -26,7 +26,7 @@ const projectCard = (props) => {
           <p className="font-medium">
             <div>
               <Link href={props.projLink} passHref>
-                <a>View Project</a>
+                <a>View Projects</a>
               </Link>
             </div>
           </p>
