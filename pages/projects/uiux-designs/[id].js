@@ -1,5 +1,4 @@
-// import { uiuxCaseList } from "../../../components/data/uiuxCasestudies.data";
-import { uiuxDesignList } from "/data/uiuxCasestudies.data";
+import { uiuxDesignList } from "/data/uiuxDesign.data";
 import ProjectListLayout from "../../../components/Layout/ProjectListLayout";
 import Image from "next/image";
 export const getStaticProps = async ({ params }) => {
@@ -17,7 +16,7 @@ export const getStaticProps = async ({ params }) => {
   };
 };
 export const getStaticPaths = async () => {
-  const paths = uiuxCaseList.map((singleDesign) => ({
+  const paths = uiuxDesignList.map((singleDesign) => ({
     params: { id: singleDesign.id.toString() },
   }));
   return { paths, fallback: false };
