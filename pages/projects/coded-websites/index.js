@@ -1,10 +1,16 @@
-import Meta from "../../../components/Layout/Meta";
 import ProjectListLayout from "../../../components/Layout/ProjectListLayout";
-import SideNav from "../../../components/ProjectView/SideNav";
-import ProjectLayout from "../../../components/Reusable Comp/projectCard";
-
-const codedWebsites = () => {
+import { codedWebsiteList } from "/data/codedWebsite.data";
+const codedWebsites = ({ data }) => {
+  console.log(data);
   return <ProjectListLayout title="M K.|Coded Websites"></ProjectListLayout>;
 };
 
 export default codedWebsites;
+
+export const getStaticProps = async (context) => {
+  return {
+    props: {
+      data: codedWebsiteList,
+    },
+  };
+};
