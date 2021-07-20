@@ -6,9 +6,9 @@ const uiuxCaseStudies = ({ data }) => {
   return (
     <ProjectListLayout title="UI/UX Case Studies">
       <div className="flex flex-col items-center space-y-20 lg:items-stretch lg:flex-col lg:space-y-28">
-        <CaseStudyCard />
-        <CaseStudyCard />
-        <CaseStudyCard />
+        {data.map((items, index) => (
+          <CaseStudyCard key={index} {...items} />
+        ))}
       </div>
     </ProjectListLayout>
   );
