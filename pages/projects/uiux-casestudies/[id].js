@@ -1,10 +1,10 @@
 // import { uiuxCaseList } from "../../../components/data/uiuxCasestudies.data";
-import { uiuxDesignList } from "/data/uiuxCasestudies.data";
+import { uiuxCaseList } from "/data/uiuxCasestudies.data";
 import ProjectListLayout from "../../../components/Layout/ProjectListLayout";
 import Image from "next/image";
 export const getStaticProps = async ({ params }) => {
   //put the uiuxcaselist as caseLists and filter out the id and makse sure its the parsm.id
-  const caseLists = uiuxDesignList.filter((p) => p.id.toString() === params.id);
+  const caseLists = uiuxCaseList.filter((p) => p.id.toString() === params.id);
 
   return {
     props: {
@@ -15,7 +15,7 @@ export const getStaticProps = async ({ params }) => {
   };
 };
 export const getStaticPaths = async () => {
-  const paths = uiuxDesignList.map((singleCase) => ({
+  const paths = uiuxCaseList.map((singleCase) => ({
     params: { id: singleCase.id.toString() },
   }));
   return { paths, fallback: false };
