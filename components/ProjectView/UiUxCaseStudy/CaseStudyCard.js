@@ -21,8 +21,8 @@ const CaseStudyCard = (props) => {
       <div className="order-1 max-w-md max-h-60 lg:order-none">
         <Image
           src={props.thumbnailSrc}
-          width="464"
-          height="236"
+          width="2000"
+          height="2000"
           alt={props.title}
           className="rounded-3xl"
         />
