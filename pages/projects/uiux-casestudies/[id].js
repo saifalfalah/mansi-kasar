@@ -24,8 +24,11 @@ export const getStaticPaths = async () => {
 const CaseStudy = ({ singleCase }) => {
   return (
     <ProjectListLayout>
+      <h1 className="text-xl font-medium text-exp lg:text-3xl">
+        {singleCase.title}
+      </h1>
       <Image
-        src="/test.png"
+        src={singleCase.contentSrc}
         alt="Picture of the author"
         layout="responsive"
         width={1266}
