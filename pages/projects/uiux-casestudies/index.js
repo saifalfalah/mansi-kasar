@@ -20,5 +20,6 @@ export const getStaticProps = async (context) => {
     props: {
       data: uiuxCaseList,
     },
+    revalidate: 10,
   };
 };
