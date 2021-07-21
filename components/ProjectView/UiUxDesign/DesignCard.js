@@ -10,8 +10,8 @@ const DesignCard = (props) => {
         </h1>
         <p className=" lg:text-lg text-expSec">{props.summary}</p>
         <Link
-          href={`/projects/uiux-casestudies/[id]`}
-          as={`/projects/uiux-casestudies/${props.id}`}
+          href={`/projects/uiux-designs[id]`}
+          as={`/projects/uiux-designs${props.id}`}
           passHref
         >
           <button className="px-4 py-3 text-white bg-brand rounded-3xl ">
