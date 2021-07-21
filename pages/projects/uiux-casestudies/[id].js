@@ -30,10 +30,10 @@ const CaseStudy = ({ singleCase }) => {
       </h1>
       <Image
         src={singleCase.contentSrc}
-        alt="Picture of the author"
+        alt={singleCase.title}
         layout="responsive"
-        width={200}
-        height={200}
+        width={500}
+        height={2000}
         quality={100}
       />
     </ProjectListLayout>
