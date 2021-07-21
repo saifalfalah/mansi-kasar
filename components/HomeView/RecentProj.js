@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Card from "../Reusable Comp/Card";
 
 const RecentProj = () => {
@@ -34,7 +35,9 @@ const RecentProj = () => {
           Recent Projects
         </h1>
         <button className="flex items-center px-4 py-2 ml-auto space-x-2 text-white rounded-lg bg-brand">
-          <span className="text-sm font-bold lg:text-base">View More</span>
+          <Link href="/projects" passHref>
+            <span className="text-sm font-bold lg:text-base">View More</span>
+          </Link>
         </button>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-7 gap-y-7 md:gap-x-2 lg:gap-x-3 xl:gap-x-1 ">
