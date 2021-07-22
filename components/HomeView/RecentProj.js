@@ -29,9 +29,9 @@ const RecentProj = () => {
     },
   ];
   return (
-    <div className="p-4 mt-16 mb-10 lg:mt-32">
+    <div className="p-4 mt-16 mb-10 lg:mt-32 text-navItems">
       <div className="flex items-center mb-10 lg:h-16 lg:mb-16">
-        <h1 className="text-4xl font-semibold font-poppins lg:text-5xl">
+        <h1 className="text-4xl font-semibold font-poppins lg:text-5xl ">
           Recent Projects
         </h1>
         <button className="flex items-center px-4 py-2 ml-auto space-x-2 text-white rounded-lg bg-brand">
