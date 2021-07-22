@@ -1,11 +1,9 @@
 import Image from "next/image";
 const IconsComp = () => {
   return (
-    <div className="w-full h-auto mt-16 space-y-2 md:mt-32">
-      <h1 className="font-medium text-center font-poppins lg:text-lg ">
-        My Skills
-      </h1>
-      <div className="flex flex-wrap justify-center ">
+    <div className="flex flex-col mx-auto mt-16 md:mt-32">
+      <h1 className="mx-auto font-medium font-poppins lg:text-lg">My Skills</h1>
+      <div className="flex flex-wrap justify-center max-w-xs gap-3 mx-auto lg:gap-8 lg:max-w-3xl mt-7 lg:mt-9">
         <Image
           src="/assets/skills-icons/ai.png"
           width="59"
