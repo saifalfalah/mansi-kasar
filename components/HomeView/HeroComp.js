@@ -1,5 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import {
+  FaLinkedin,
+  FaBehance,
+  FaYoutube,
+  FaInstagram,
+  FaRegEnvelope,
+} from "react-icons/fa";
+import { FiDownload } from "react-icons/fi";
 const heroSection = () => {
   return (
     <div className="flex flex-col p-4 lg:flex-row lg:p-0">
@@ -17,36 +25,13 @@ const heroSection = () => {
         </p>
         <div className="flex mb-4 space-x-6">
           <button className="flex items-center px-4 py-2 space-x-2 text-white rounded-lg bg-brand">
-            <svg
-              width="20"
-              height="14"
-              viewBox="0 0 20 14"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M3.598 2L9.345 7.12C9.52813 7.28306 9.76479 7.37316 10.01 7.37316C10.2552 7.37316 10.4919 7.28306 10.675 7.12L16.423 2H3.598ZM18 3.273L12.006 8.614C11.4565 9.10374 10.7461 9.37436 10.01 9.37436C9.27392 9.37436 8.56352 9.10374 8.014 8.614L2 3.254V12H18V3.273ZM2 0H18C18.5304 0 19.0391 0.210714 19.4142 0.585786C19.7893 0.960859 20 1.46957 20 2V12C20 12.5304 19.7893 13.0391 19.4142 13.4142C19.0391 13.7893 18.5304 14 18 14H2C1.46957 14 0.960859 13.7893 0.585786 13.4142C0.210714 13.0391 0 12.5304 0 12V2C0 1.46957 0.210714 0.960859 0.585786 0.585786C0.960859 0.210714 1.46957 0 2 0V0Z"
-                fill="white"
-              />
-            </svg>
+            <FaRegEnvelope className="text-xl" />
 
             <span className="text-sm font-bold lg:text-base">Mail Me</span>
           </button>
-          <button className="flex items-center px-4 py-2 space-x-2 text-black border rounded-lg border-brandOutline">
-            <svg
-              width="14"
-              height="20"
-              viewBox="0 0 14 20"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M14 20H0V18H14V20ZM7 16L1 10L2.41 8.59L6 12.17V0H8V12.17L11.59 8.59L13 10L7 16Z"
-                fill="#2F2F2F"
-              />
-            </svg>
-
-            <span className="text-sm font-bold lg:text-base">Download CV</span>
+          <button className="flex items-center px-4 py-2 space-x-2 border rounded-lg text-heroH border-brandOutline">
+            <FiDownload className="text-xl" />
+            <span className="text-sm font-bold lg:text-base ">Download CV</span>
           </button>
         </div>
       </div>
@@ -82,42 +67,22 @@ const heroSection = () => {
         <div className="lg:flex lg:flex-col lg:h-72 lg:justify-between">
           <Link href="https://www.linkedin.com/in/mansi-kasar-363b19184/">
             <a target="_blank" rel="noopener noreferrer">
-              <Image
-                src="/assets/contact-icons/linkedin.png"
-                width="28"
-                height="28"
-                alt="linkedin logo"
-              />
+              <FaLinkedin className="text-3xl text-heroH" />
             </a>
           </Link>
           <Link href="https://www.behance.net/mansikasar">
             <a target="_blank" rel="noopener noreferrer">
-              <Image
-                src="/assets/contact-icons/behance.png"
-                width="28"
-                height="28"
-                alt="linkedin logo"
-              />
+              <FaBehance className="text-3xl text-heroH" />
             </a>
           </Link>
           <Link href="https://www.youtube.com/channel/UCzUxG5w_pdgFm6RwoWp0fRw">
             <a target="_blank" rel="noopener noreferrer">
-              <Image
-                src="/assets/contact-icons/youtube.png"
-                width="28"
-                height="28"
-                alt="linkedin logo"
-              />
+              <FaYoutube className="text-3xl text-heroH" />
             </a>
           </Link>
-          <Link href="https://l">
+          <Link href="https://www.instagram.com/man.si.my.art/">
             <a target="_blank" rel="noopener noreferrer">
-              <Image
-                src="/assets/contact-icons/ig.png"
-                width="28"
-                height="28"
-                alt="linkedin logo"
-              />
+              <FaInstagram className="text-3xl text-heroH" />
             </a>
           </Link>
         </div>
