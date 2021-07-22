@@ -3,56 +3,71 @@ const IconsComp = () => {
   return (
     <div className="flex flex-col mx-auto mt-16 md:mt-32">
       <h1 className="mx-auto font-medium font-poppins lg:text-lg">My Skills</h1>
-      <div className="flex flex-wrap justify-center max-w-xs gap-3 mx-auto lg:gap-8 lg:max-w-3xl mt-7 lg:mt-9">
-        <Image
-          src="/assets/skills-icons/ai.png"
-          width="59"
-          height="59"
-          alt="Adobe Ai Logo"
-        />
-
-        <Image
-          src="/assets/skills-icons/ps.png"
-          width="59"
-          height="57"
-          alt="Adobe PS Logo"
-        />
-        <Image
-          src="/assets/skills-icons/figma.png"
-          width="59"
-          height="57"
-          alt="Figma Logo"
-        />
-        <Image
-          src="/assets/skills-icons/xd.png"
-          width="59"
-          height="57"
-          alt="Adobe XD Logo"
-        />
-        <Image
-          src="/assets/skills-icons/html.png"
-          width="59"
-          height="57"
-          alt="HTML Logo"
-        />
-        <Image
-          src="/assets/skills-icons/css.png"
-          width="59"
-          height="57"
-          alt="CSS Logo"
-        />
-        <Image
-          src="/assets/skills-icons/angular.png"
-          width="59"
-          height="57"
-          alt="Angular Logo"
-        />
-        <Image
-          src="/assets/skills-icons/node.png"
-          width="59"
-          height="57"
-          alt="Node Logo"
-        />
+      <div className="flex flex-wrap justify-center max-w-xs gap-5 mx-auto md:max-w-xl md:gap-8 lg:max-w-3xl mt-7 lg:mt-9">
+        <div className="relative w-10 h-10 lg:w-14 lg:h-14">
+          <Image
+            src="/assets/skills-icons/ai.png"
+            alt="Adobe Ai Logo"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
+        <div className="relative w-10 h-10 lg:w-14 lg:h-14">
+          <Image
+            src="/assets/skills-icons/ps.png"
+            alt="Adobe Ps Logo"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
+        <div className="relative w-10 h-10 lg:w-14 lg:h-14">
+          <Image
+            src="/assets/skills-icons/figma.png"
+            alt="Figma Logo"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
+        <div className="relative w-10 h-10 lg:w-14 lg:h-14">
+          <Image
+            src="/assets/skills-icons/xd.png"
+            alt="Adobe XD Logo"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
+        <div className="relative w-10 h-10 lg:w-14 lg:h-14">
+          <Image
+            src="/assets/skills-icons/html.png"
+            alt="Html Logo"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
+        <div className="relative w-10 h-10 lg:w-14 lg:h-14">
+          <Image
+            src="/assets/skills-icons/css.png"
+            alt="Css Logo"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
+        <div className="relative w-10 h-10 lg:w-14 lg:h-14">
+          <Image
+            src="/assets/skills-icons/angular.png"
+            alt="Angular Logo"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
+        <div className="relative w-10 h-10 lg:w-14 lg:h-14">
+          <Image
+            src="/assets/skills-icons/node.png"
+            alt="Node Logo"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
       </div>
     </div>
   );
