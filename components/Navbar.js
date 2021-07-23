@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <>
       {/* mobile first */}
-      <nav className="flex flex-wrap items-center lg:px-20 lg:pt-16">
+      <nav className="flex flex-wrap items-center xl:px-20 lg:px-2 lg:pt-16">
         <Link href="/">
           <a className="items-center p-2 mr-4">
             <h1 className="text-xl font-bold text-navItems font-badScript ">
