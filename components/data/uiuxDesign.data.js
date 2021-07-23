@@ -8,6 +8,7 @@ export const uiuxDesignList = [
     thumbnailSrc: "/assets/all-projects/uiuxDesign/1.png",
     textCont: "order-2 lg:order-none",
     imgCont: "order-1 lg:order-none",
+    videoUrl: "https://www.youtube.com/embed/DEiVBwIavJo",
   },
   {
     id: 1,
@@ -16,9 +17,9 @@ export const uiuxDesignList = [
       "UI & UX design for a fashion marketplace. Personal conceptual side project.",
     contentSrc: "/assets/all-projects/uiuxDesign/eachDesign/2.png",
     thumbnailSrc: "/assets/all-projects/uiuxDesign/2.png",
-
     textCont: "order-2",
     imgCont: "order-1",
+    videoUrl: "https://www.youtube.com/embed/DEiVBwIavJo",
   },
   {
     id: 2,
@@ -29,5 +30,6 @@ export const uiuxDesignList = [
     thumbnailSrc: "/assets/all-projects/uiuxDesign/3.png",
     textCont: "order-2 lg:order-none",
     imgCont: "order-1 lg:order-none",
+    videoUrl: "https://www.youtube.com/embed/DEiVBwIavJo",
   },
 ];
