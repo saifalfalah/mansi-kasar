@@ -6,7 +6,7 @@ const Footer = () => {
         {/* main grid */}
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-9 ">
           <div className="flex flex-col">
-            <h1 className="mb-3 text-sm font-bold text-white font-badScript ">
+            <h1 className="mb-3 text-sm font-bold text-white font-cardo ">
               Mansi K.
             </h1>
             <div className="text-xs font-normal lg:text-sm font-roboto ">
