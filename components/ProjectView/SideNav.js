@@ -27,11 +27,11 @@ const sidenav = () => {
   ];
   return (
     <div className="w-48 font-poppins text-heroH">
-      <div className="mb-6 text-xl font-normal tracking-wider uppercase ">
+      <div className="hidden mb-6 text-xl font-normal tracking-wider uppercase lg:block ">
         <h1 className="">Mansi</h1>
         <h1 className="">Kasar.</h1>
       </div>
-      <ul className="flex items-center space-x-4 mb-28">
+      <ul className="items-center hidden space-x-4 lg:flex mb-28">
         <li className="">
           <Link href="https://www.behance.net/mansikasar">
             <a target="_blank" rel="noopener noreferrer">
