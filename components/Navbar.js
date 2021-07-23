@@ -47,11 +47,7 @@ const Navbar = () => {
           <div className="flex flex-col items-start w-full lg:flex-row lg:ml-auto lg:w-auto lg:items-center lg:h-auto">
             {/* <div className={router.pathname == "/" ? "text-brand" : ""}> */}
             <Link href="/">
-              <a
-                className={`${
-                  router.pathname === "/" ? "text-brand" : "text-navItems"
-                }items-center w-full p-2 mr-4 font-medium rounded font-poppin lg:w-auto`}
-              >
+              <a className="items-center w-full p-2 mr-4 font-medium rounded font-poppins text-navItems lg:w-auto ">
                 Home
               </a>
             </Link>
