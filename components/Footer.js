@@ -2,9 +2,9 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="h-auto px-20 pt-20 pb-10 text-white bg-black lg:h-80 text lg:pt-24 lg:pr-52 lg: lg:pl-48">
+      <footer className="h-auto px-20 pt-20 pb-10 text-white bg-black lg:h-80 text lg:pt-24 lg:px-24 lg: ">
         {/* main grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-y-9 ">
+        <div className="grid grid-cols-1 gap-9 lg:grid-cols-4 ">
           <div className="flex flex-col">
             <h1 className="mb-3 text-sm font-bold text-white font-cardo ">
               Mansi K.
@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="flex flex-col font-roboto">
             <h1 className="mb-3 text-sm font-bold ">Latest Blog Post</h1>
             <div className="text-xs font-normal lg:text-sm ">
-              <p className="">
+              <p className="w-40">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
