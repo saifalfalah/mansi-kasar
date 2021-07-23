@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const DesignCard = (props) => {
   return (
-    <div className="flex flex-col justify-between max-w-4xl font-poppins lg:flex-row ">
+    <div className="flex flex-col justify-between max-w-4xl lg:gap-3 xl:gap-0 font-poppins lg:flex-row ">
       <div className={`max-w-xs space-y-5 ` + props.textCont}>
         <h1 className="text-xl font-medium text-exp lg:text-3xl">
           {props.title}
