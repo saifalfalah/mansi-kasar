@@ -12,7 +12,7 @@ const heroSection = () => {
   return (
     <div className="flex flex-col p-4 lg:flex-row lg:p-0">
       {/* left */}
-      <div className="px-4 pt-2 font-poppins lg:pt-0 lg:w-2/6">
+      <div className="px-4 pt-2 font-poppins lg:pt-0 xl:w-2/6 lg:w-2/5">
         <p className="mt-4 mb-4 text-xl font-medium lg:text-2xl text-heroP lg:pt-20">
           Hey!
         </p>
@@ -36,7 +36,7 @@ const heroSection = () => {
         </div>
       </div>
       {/* middle */}
-      <div className="order-first px-4 pt-2 lg:order-none lg:mt-11 lg:w-3/6">
+      <div className="order-first px-4 pt-2 lg:order-none lg:mt-11 xl:w-3/6 lg:w-2/5">
         <div className="w-full">
           <Image
             src="/assets/heroImg.png"
@@ -47,7 +47,7 @@ const heroSection = () => {
         </div>
       </div>
       {/* right */}
-      <div className="hidden lg:flex lg:flex-col lg:items-center lg:ml-auto lg:w-1/6">
+      <div className="hidden lg:flex lg:flex-col lg:items-center lg:ml-auto xl:w-1/6 lg:w-1/5 h-510">
         <svg
           className="mt-16 mb-7"
           width="1"
