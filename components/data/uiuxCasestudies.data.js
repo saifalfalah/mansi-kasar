@@ -8,6 +8,7 @@ export const uiuxCaseList = [
       "UI & UX design for a fashion marketplace. Personal conceptual side project.",
     contentSrc: "/assets/all-projects/uixCaseStudy/eachCaseStudy/1.png",
     thumbnailSrc: "/assets/all-projects/uixCaseStudy/1.png",
+    videoUrl: "https://www.youtube.com/watch?v=DEiVBwIavJo&t=3s",
   },
   {
     id: 1,
@@ -16,6 +17,7 @@ export const uiuxCaseList = [
       "UI & UX design for a fashion marketplace. Personal conceptual side project.",
     contentSrc: "/assets/all-projects/uixCaseStudy/eachCaseStudy/2.png",
     thumbnailSrc: "/assets/all-projects/uixCaseStudy/2.png",
+    videoUrl: "https://www.youtube.com/watch?v=DEiVBwIavJo&t=3s",
   },
   {
     id: 2,
@@ -24,5 +26,6 @@ export const uiuxCaseList = [
       "UI & UX design for a fashion marketplace. Personal conceptual side project.",
     contentSrc: "/assets/all-projects/uixCaseStudy/eachCaseStudy/3.png",
     thumbnailSrc: "/assets/all-projects/uixCaseStudy/3.png",
+    videoUrl: "https://www.youtube.com/watch?v=DEiVBwIavJo&t=3s",
   },
 ];
