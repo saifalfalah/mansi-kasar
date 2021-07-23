@@ -68,6 +68,7 @@ module.exports = {
         roboto: ["Roboto"],
         badScript: ["Bad Script"],
         cursive: ["cursive"],
+        cardo: ["Cardo"],
       },
       screens: {
         "1xl": "1440px",
