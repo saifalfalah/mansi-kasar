@@ -56,7 +56,7 @@ const sidenav = () => {
         <li>
           <Link href="https://www.youtube.com/channel/UCzUxG5w_pdgFm6RwoWp0fRw">
             <a target="_blank" rel="noopener noreferrer">
-              <FaYoutube className="text-3xl text-heroH" />
+              <FaYoutube className="text-lg text-heroH" />
             </a>
           </Link>
         </li>
