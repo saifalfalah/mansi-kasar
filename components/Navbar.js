@@ -47,23 +47,41 @@ const Navbar = () => {
           <div className="flex flex-col items-start w-full lg:flex-row lg:ml-auto lg:w-auto lg:items-center lg:h-auto">
             {/* <div className={router.pathname == "/" ? "text-brand" : ""}> */}
             <Link href="/">
-              <a className="items-center w-full p-2 mr-4 font-medium rounded font-poppins text-navItems lg:w-auto ">
+              <a
+                className={`items-center justify-center w-full p-2 mr-4 font-medium rounded font-poppins lg:w-auto ${
+                  router.pathname === "/" ? "text-brand" : "text-navItems "
+                }`}
+              >
                 Home
               </a>
             </Link>
             {/* </div> */}
             <Link href="/about">
-              <a className="items-center justify-center w-full p-2 mr-4 font-medium rounded font-poppins text-navItems lg:w-auto">
+              <a
+                className={`items-center justify-center w-full p-2 mr-4 font-medium rounded font-poppins lg:w-auto ${
+                  router.pathname === "/about" ? "text-brand" : "text-navItems "
+                }`}
+              >
                 About
               </a>
             </Link>
             <Link href="/projects">
-              <a className="items-center justify-center w-full p-2 mr-4 font-medium rounded font-poppins text-navItems lg:w-auto">
-                Project
+              <a
+                className={`items-center justify-center w-full p-2 mr-4 font-medium rounded font-poppins lg:w-auto ${
+                  router.pathname === "/projects"
+                    ? "text-brand"
+                    : "text-navItems "
+                }`}
+              >
+                Projects
               </a>
             </Link>
             <Link href="/">
-              <a className="items-center justify-center w-full p-2 mr-4 font-medium rounded font-poppins text-navItems lg:w-auto">
+              <a
+                className={`items-center justify-center w-full p-2 mr-4 font-medium rounded font-poppins lg:w-auto ${
+                  router.pathname === "/test" ? "text-brand" : "text-navItems "
+                }`}
+              >
                 Contact
               </a>
             </Link>

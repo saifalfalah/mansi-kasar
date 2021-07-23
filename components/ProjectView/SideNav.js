@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import {
   FaLinkedin,
   FaBehance,
@@ -6,25 +7,27 @@ import {
   FaInstagram,
   FaRegEnvelope,
 } from "react-icons/fa";
-const sidenav = () => {
+
+const SideNav = () => {
   const sideNavItems = [
     {
       name: "Coded websites",
-      path: "/projects/coded-websites/",
+      path: "/projects/coded-websites",
     },
     {
       name: "UI/UX Case Stuides",
-      path: "/projects/uiux-casestudies/",
+      path: "/projects/uiux-casestudies",
     },
     {
       name: "UI/UX Designs",
-      path: "/projects/uiux-designs/",
+      path: "/projects/uiux-designs",
     },
     {
       name: "Logo & Graphic Design ",
-      path: "/projects/logo-graphic-design/ ",
+      path: "/projects/logo-graphic-design",
     },
   ];
+  const router = useRouter();
   return (
     <div className="w-48 font-poppins text-heroH">
       <div className="hidden mb-6 text-xl font-normal tracking-wider uppercase lg:block ">
@@ -63,7 +66,11 @@ const sidenav = () => {
       </ul>
       <div>
         <Link href="/projects">
-          <a>
+          <a
+            className={`${
+              router.pathname === "/projects" ? "text-brand" : "text-heroH "
+            }`}
+          >
             <h1 className="mb-6 font-bold popp">Projects</h1>
           </a>
         </Link>
@@ -71,7 +78,15 @@ const sidenav = () => {
       <div className="flex flex-col space-y-4">
         {sideNavItems.map((item, index) => (
           <Link key={index} href={item.path}>
-            <a>{item.name}</a>
+            <a
+              className={`${
+                router.pathname.startsWith(item.path)
+                  ? "text-brand"
+                  : "text-heroH "
+              }`}
+            >
+              {item.name}
+            </a>
           </Link>
         ))}
       </div>
@@ -79,4 +94,4 @@ const sidenav = () => {
   );
 };
 
-export default sidenav;
+export default SideNav;
