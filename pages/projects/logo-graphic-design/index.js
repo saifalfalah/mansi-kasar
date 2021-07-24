@@ -5,74 +5,74 @@ const logoGraphicDesign = () => {
   return (
     <ProjectListLayout title="M K.|Logo & Graphic Design">
       <div className="flex flex-wrap justify-center max-w-5xl gap-6 ">
-        <div className="max-w-xs max-h-60">
+        <div className="h-60 w-60 ">
           <Image
             src="/assets/all-projects/LogoGraphicDesign/2.png"
-            width="280"
-            height="191"
+            width="240"
+            height="240"
             alt="test"
             className="rounded-3xl"
           />
         </div>
-        <div className="max-w-xs max-h-60">
+        <div className="h-60 w-60 ">
           <Image
             src="/assets/all-projects/LogoGraphicDesign/1.png"
-            width="280"
-            height="191"
+            width="240"
+            height="240"
             alt="test"
             className="rounded-3xl"
           />
         </div>
-        <div className="max-w-xs max-h-60">
+        <div className="h-60 w-60 ">
           <Image
             src="/assets/all-projects/LogoGraphicDesign/1.png"
-            width="280"
-            height="191"
+            width="240"
+            height="240"
             alt="test"
             className="rounded-3xl"
           />
         </div>
-        <div className="max-w-xs max-h-60">
+        <div className="h-60 w-60 ">
           <Image
             src="/assets/all-projects/LogoGraphicDesign/1.png"
-            width="280"
-            height="191"
+            width="240"
+            height="240"
             alt="test"
             className="rounded-3xl"
           />
         </div>
-        <div className="max-w-xs max-h-60">
+        <div className="h-60 w-60 ">
           <Image
             src="/assets/all-projects/LogoGraphicDesign/1.png"
-            width="280"
-            height="191"
+            width="240"
+            height="240"
             alt="test"
             className="rounded-3xl"
           />
         </div>
-        <div className="max-w-xs max-h-60">
+        <div className="h-60 w-60 ">
           <Image
             src="/assets/all-projects/LogoGraphicDesign/1.png"
-            width="280"
-            height="191"
+            width="240"
+            height="240"
             alt="test"
             className="rounded-3xl"
           />
         </div>
-        <div className="max-w-xs max-h-60">
+        <div className="h-60 w-60 ">
           <Image
             src="/assets/all-projects/LogoGraphicDesign/1.png"
-            width="280"
-            height="191"
+            width="240"
+            height="240"
             alt="test"
             className="rounded-3xl"
           />
         </div>
-        <div className="max-w-xs max-h-60">
+        <div className="h-60 w-60 ">
           <Image
             src="/assets/all-projects/LogoGraphicDesign/1.png"
-            width="280"
-            height="191"
+            width="240"
+            height="240"
             alt="test"
             className="rounded-3xl"
           />
@@ -132,7 +132,7 @@ export default logoGraphicDesign;
     <Image
       src="/assets/all-projects/LogoGraphicDesign/1.png"
       width="280 "
-      height="191"
+      height="240"
       alt="test"
       className="rounded-3xl"
     />
