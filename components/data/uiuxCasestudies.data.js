@@ -3,7 +3,7 @@
 export const uiuxCaseList = [
   {
     id: 0,
-    title: "not comp",
+    title: "App design case study",
     summary:
       "UI & UX design for a fashion marketplace. Personal conceptual side project.",
     contentSrc: "/assets/all-projects/uixCaseStudy/eachCaseStudy/1.png",
