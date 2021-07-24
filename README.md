@@ -1,1 +1,1 @@
-## UI/UX portfolio for a Client
+## UI/UX portfolio 
