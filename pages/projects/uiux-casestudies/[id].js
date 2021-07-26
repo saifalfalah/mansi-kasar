@@ -33,7 +33,7 @@ const CaseStudy = ({ singleCase }) => {
         alt={singleCase.title}
         layout="responsive"
         width={500}
-        height={2000}
+        height={6000}
         quality={100}
       />
       <div className=" aspect-w-16 aspect-h-16 md:aspect-h-14 lg:aspect-h-9">
