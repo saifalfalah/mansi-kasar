@@ -24,15 +24,24 @@ const heroSection = () => {
           UI/UX Designer based in Mumbai, India.
         </p>
         <div className="flex mb-4 space-x-6">
-          <button className="flex items-center px-4 py-2 space-x-2 text-white rounded-lg bg-brand">
-            <FaRegEnvelope className="text-xl" />
+          <Link href="mailto:mansikasar5@gmail.com">
+            <a className="flex items-center px-4 py-2 space-x-2 text-white rounded-lg bg-brand">
+              <FaRegEnvelope className="text-xl" />
 
-            <span className="text-sm font-bold lg:text-base">Mail Me</span>
-          </button>
-          <button className="flex items-center px-4 py-2 space-x-2 border rounded-lg text-heroH border-brandOutline">
-            <FiDownload className="text-xl" />
-            <span className="text-sm font-bold lg:text-base ">Download CV</span>
-          </button>
+              <span className="text-sm font-bold lg:text-base">Mail Me</span>
+            </a>
+          </Link>
+          <Link href="example.pdf">
+            <a
+              download
+              className="flex items-center px-4 py-2 space-x-2 border rounded-lg text-heroH border-brandOutline"
+            >
+              <FiDownload className="text-xl" />
+              <span className="text-sm font-bold lg:text-base ">
+                Download CV
+              </span>
+            </a>
+          </Link>
         </div>
       </div>
       {/* middle */}
