@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <div className="flex flex-col items-center mb-6 lg:mb-11">
+    <div className="flex flex-col items-center mb-6 lg:mb-11 font-poppins">
       <h1 className="mb-4 text-3xl font-semibold lg:mb-10 text-heroH lg:text-5xl">
         About <span className="text-brand">Me</span>
       </h1>
