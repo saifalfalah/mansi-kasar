@@ -76,7 +76,7 @@ const Navbar = () => {
                 Projects
               </a>
             </Link>
-            <Link href="/">
+            <Link href="/contact">
               <a
                 className={`items-center justify-center w-full p-2 mr-4 font-medium rounded font-poppins lg:w-auto ${
                   router.pathname === "/test" ? "text-brand" : "text-navItems "
