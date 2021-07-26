@@ -11,16 +11,16 @@ import {
 const SideNav = () => {
   const sideNavItems = [
     {
-      name: "Coded websites",
-      path: "/projects/coded-websites",
-    },
-    {
       name: "UI/UX Case Stuides",
       path: "/projects/uiux-casestudies",
     },
     {
       name: "UI/UX Designs",
       path: "/projects/uiux-designs",
+    },
+    {
+      name: "Coded websites",
+      path: "/projects/coded-websites",
     },
     {
       name: "Logo & Graphic Design ",
