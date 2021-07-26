@@ -3,11 +3,6 @@ import Card from "../Reusable Comp/projectCard";
 const AllProj = () => {
   const projectData = [
     {
-      title: "Coded Websites",
-      projLink: "/projects/coded-websites/",
-      imgSrc: "/assets/all-projects/projectHome/1.png",
-    },
-    {
       title: "UI/UX Case Studies",
       projLink: "/projects/uiux-casestudies/",
       imgSrc: "/assets/all-projects/projectHome/2.png",
@@ -16,6 +11,11 @@ const AllProj = () => {
       title: "UI/UX Designs",
       projLink: "/projects/uiux-designs/",
       imgSrc: "/assets/all-projects/projectHome/3.png",
+    },
+    {
+      title: "Coded Websites",
+      projLink: "/projects/coded-websites/",
+      imgSrc: "/assets/all-projects/projectHome/1.png",
     },
     {
       title: "Logo & Graphic Desgin",
