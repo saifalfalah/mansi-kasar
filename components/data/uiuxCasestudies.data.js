@@ -12,12 +12,12 @@ export const uiuxCaseList = [
   },
   {
     id: 1,
-    title: "Tassel 2",
+    title: "proj.co",
     summary:
       "UI & UX design for a fashion marketplace. Personal conceptual side project.",
     contentSrc: "/assets/all-projects/uixCaseStudy/eachCaseStudy/2.png",
     thumbnailSrc: "/assets/all-projects/uixCaseStudy/2.png",
-    videoUrl: "https://www.youtube.com/embed/DEiVBwIavJo",
+    videoUrl: "https://www.youtube.com/embed/6uc3PLBlEe0",
   },
   // {
   //   id: 2,
