@@ -19,21 +19,9 @@ const Card = (props) => {
 
       <div className="flex justify-between">
         <div className="flex items-center space-x-2">
-          <svg
-            width="18"
-            height="20"
-            viewBox="0 0 18 20"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M9 19.135L0 12.135L1.62 10.875L8.99 16.605L16.37 10.865L18 12.135L9 19.135ZM9 14.865L1.63 9.13499L0 7.86499L9 0.86499L18 7.86499L16.36 9.13499L9 14.865Z"
-              fill="#151517"
-            />
-          </svg>
           <p className="font-medium">
             <Link href={props.caseLink}>
-              <a>View Case Study</a>
+              <a>View Project</a>
             </Link>
           </p>
         </div>
