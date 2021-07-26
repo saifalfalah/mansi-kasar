@@ -8,7 +8,7 @@ export const uiuxCaseList = [
       "UI & UX design for a fashion marketplace. Personal conceptual side project.",
     contentSrc: "/assets/all-projects/uixCaseStudy/eachCaseStudy/1.png",
     thumbnailSrc: "/assets/all-projects/uixCaseStudy/1.png",
-    videoUrl: "https://www.youtube.com/embed/6uc3PLBlEe0",
+    videoUrl: "",
   },
   {
     id: 1,
