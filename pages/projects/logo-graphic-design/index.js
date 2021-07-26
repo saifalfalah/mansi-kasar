@@ -7,6 +7,15 @@ const logoGraphicDesign = () => {
       <div className="flex flex-wrap justify-center max-w-5xl gap-6 ">
         <div className="h-60 w-60 ">
           <Image
+            src="/assets/all-projects/LogoGraphicDesign/1.png"
+            width="240"
+            height="240"
+            alt="test"
+            className="rounded-3xl"
+          />
+        </div>
+        <div className="h-60 w-60 ">
+          <Image
             src="/assets/all-projects/LogoGraphicDesign/2.png"
             width="240"
             height="240"
@@ -16,7 +25,7 @@ const logoGraphicDesign = () => {
         </div>
         <div className="h-60 w-60 ">
           <Image
-            src="/assets/all-projects/LogoGraphicDesign/1.png"
+            src="/assets/all-projects/LogoGraphicDesign/3.png"
             width="240"
             height="240"
             alt="test"
@@ -25,7 +34,7 @@ const logoGraphicDesign = () => {
         </div>
         <div className="h-60 w-60 ">
           <Image
-            src="/assets/all-projects/LogoGraphicDesign/1.png"
+            src="/assets/all-projects/LogoGraphicDesign/4.png"
             width="240"
             height="240"
             alt="test"
@@ -34,7 +43,7 @@ const logoGraphicDesign = () => {
         </div>
         <div className="h-60 w-60 ">
           <Image
-            src="/assets/all-projects/LogoGraphicDesign/1.png"
+            src="/assets/all-projects/LogoGraphicDesign/5.png"
             width="240"
             height="240"
             alt="test"
@@ -43,7 +52,7 @@ const logoGraphicDesign = () => {
         </div>
         <div className="h-60 w-60 ">
           <Image
-            src="/assets/all-projects/LogoGraphicDesign/1.png"
+            src="/assets/all-projects/LogoGraphicDesign/6.png"
             width="240"
             height="240"
             alt="test"
@@ -52,25 +61,7 @@ const logoGraphicDesign = () => {
         </div>
         <div className="h-60 w-60 ">
           <Image
-            src="/assets/all-projects/LogoGraphicDesign/1.png"
-            width="240"
-            height="240"
-            alt="test"
-            className="rounded-3xl"
-          />
-        </div>
-        <div className="h-60 w-60 ">
-          <Image
-            src="/assets/all-projects/LogoGraphicDesign/1.png"
-            width="240"
-            height="240"
-            alt="test"
-            className="rounded-3xl"
-          />
-        </div>
-        <div className="h-60 w-60 ">
-          <Image
-            src="/assets/all-projects/LogoGraphicDesign/1.png"
+            src="/assets/all-projects/LogoGraphicDesign/7.png"
             width="240"
             height="240"
             alt="test"
