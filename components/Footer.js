@@ -2,7 +2,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="h-auto px-20 pt-20 pb-10 text-white bg-black lg:h-80 text lg:pt-24 lg:px-24 lg: ">
+      <footer className="h-auto px-20 pt-20 pb-10 text-white bg-black lg:items-center lg:h-80 text lg:pt-24 lg:px-24 lg: ">
         {/* main grid */}
         <div className="grid grid-cols-1 gap-9 lg:grid-cols-4 ">
           <div className="flex flex-col">
@@ -14,7 +14,7 @@ const Footer = () => {
               <p className="">Privacy — Terms</p>
             </div>
           </div>
-          <div className="flex flex-col font-roboto">
+          {/* <div className="flex flex-col font-roboto">
             <h1 className="mb-3 text-sm font-bold ">Latest Blog Post</h1>
             <div className="text-xs font-normal lg:text-sm ">
               <p className="w-40">
@@ -22,7 +22,7 @@ const Footer = () => {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="flex flex-col font-roboto">
             <h1 className="mb-3 text-sm font-bold">Socials</h1>
             <Link href="/">
