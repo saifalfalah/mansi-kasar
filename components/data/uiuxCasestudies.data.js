@@ -4,8 +4,7 @@ export const uiuxCaseList = [
   {
     id: 0,
     title: "noQ",
-    summary:
-      "UI & UX design for a fashion marketplace. Personal conceptual side project.",
+    summary: "Case study on a virtual slot booking application for college.",
     contentSrc: "/assets/all-projects/uixCaseStudy/eachCaseStudy/1.png",
     thumbnailSrc: "/assets/all-projects/uixCaseStudy/1.png",
     videoUrl: "",
@@ -13,8 +12,7 @@ export const uiuxCaseList = [
   {
     id: 1,
     title: "proj.co",
-    summary:
-      "UI & UX design for a fashion marketplace. Personal conceptual side project.",
+    summary: "Case study on a project collaboration website.",
     contentSrc: "/assets/all-projects/uixCaseStudy/eachCaseStudy/2.png",
     thumbnailSrc: "/assets/all-projects/uixCaseStudy/2.png",
     videoUrl: "https://www.youtube.com/embed/6uc3PLBlEe0",
