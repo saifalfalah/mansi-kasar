@@ -3,7 +3,7 @@ export const uiuxDesignList = [
     id: 0,
     title: "Art Venture",
     summary:
-      "UI & UX design for a fashion marketplace. Personal conceptual side project.",
+      "UI/UX Design for an app. Art venture provides a unique art collection.",
     contentSrc: "/assets/all-projects/uiuxDesign/eachDesign/1.png",
     thumbnailSrc: "/assets/all-projects/uiuxDesign/1.png",
     textCont: "order-2 lg:order-none",
@@ -14,7 +14,7 @@ export const uiuxDesignList = [
     id: 1,
     title: "College Fynd",
     summary:
-      "UI & UX design for a fashion marketplace. Personal conceptual side project.",
+      "Website UI/UX design. Collegefynd helps you find your perfect college and course.",
     contentSrc: "/assets/all-projects/uiuxDesign/eachDesign/2.png",
     thumbnailSrc: "/assets/all-projects/uiuxDesign/2.png",
     textCont: "order-2",
@@ -24,8 +24,7 @@ export const uiuxDesignList = [
   {
     id: 2,
     title: "Binge",
-    summary:
-      "UI & UX design for a fashion marketplace. Personal conceptual side project.",
+    summary: "Neuromorphic UI show recommendation website.",
     contentSrc: "/assets/all-projects/uiuxDesign/eachDesign/3.png",
     thumbnailSrc: "/assets/all-projects/uiuxDesign/3.png",
     textCont: "order-2 lg:order-none",
@@ -35,8 +34,7 @@ export const uiuxDesignList = [
   {
     id: 3,
     title: "Music App",
-    summary:
-      "UI & UX design for a fashion marketplace. Personal conceptual side project.",
+    summary: "Dark UI music app, made in Adobe XD",
     contentSrc: "/assets/all-projects/uiuxDesign/eachDesign/4.png",
     thumbnailSrc: "/assets/all-projects/uiuxDesign/4.png",
     textCont: "order-2",
@@ -46,8 +44,7 @@ export const uiuxDesignList = [
   {
     id: 4,
     title: "Coffee App",
-    summary:
-      "UI & UX design for a fashion marketplace. Personal conceptual side project.",
+    summary: "Simple coffee app UI made in Adobe XD",
     contentSrc: "/assets/all-projects/uiuxDesign/eachDesign/5.png",
     thumbnailSrc: "/assets/all-projects/uiuxDesign/5.png",
     textCont: "order-2 lg:order-none",
