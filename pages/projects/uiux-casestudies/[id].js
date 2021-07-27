@@ -32,7 +32,7 @@ const CaseStudy = ({ singleCase }) => {
         src={singleCase.contentSrc}
         alt={singleCase.title}
         layout="responsive"
-        width={500}
+        width={1400}
         height={6000}
         quality={100}
       />
