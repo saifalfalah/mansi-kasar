@@ -50,6 +50,8 @@ module.exports = {
         445: "27.8rem",
         483: "30.2rem",
         402: "25rem",
+        thumbnailW: "33.2rem",
+        thumbnailH: "30.3rem",
       },
       width: {
         "6/7": "96%",
