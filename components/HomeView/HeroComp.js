@@ -17,11 +17,11 @@ const heroSection = () => {
           Hey!
         </p>
         <h1 className="mb-4 text-4xl font-semibold space lg:text-5xl text-heroH ">
-          I&#39;m <span className="text-brand">Mansi Kasar</span>, an UI/UX
+          I&#39;m <span className="text-brand">Mansi Kasar</span>, a UI/UX
           Designer.
         </h1>
         <p className="mb-4 text-base font-normal text-heroH lg:mb-32 lg:text-lg">
-          UI/UX Designer based in Mumbai, India.
+          I love to design, illustrate, dance, eat good food, and binge.
         </p>
         <div className="flex mb-4 space-x-6">
           <Link href="mailto:mansikasar5@gmail.com">
@@ -51,6 +51,7 @@ const heroSection = () => {
             src="/assets/heroImg.png"
             width="583"
             height="554.46px"
+            quality="100"
             alt="Picture of Mansi"
           />
         </div>
