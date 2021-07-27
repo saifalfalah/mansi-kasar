@@ -4,28 +4,32 @@ import Card from "../Reusable Comp/Card";
 const RecentProj = () => {
   const projectData = [
     {
-      title: "Test1",
-      caseLink: "https://www.linkedin.com/in/mansi-kasar-363b19184/",
-      liveLink: "https://www.behance.net/mansikasar",
-      imgSrc: "/assets/recent-projects/1.jpg",
+      title: "noQ",
+      caseLink: "/projects/uiux-casestudies/0",
+      liveLink:
+        "https://www.behance.net/gallery/124166733/Case-Study-noQ-Virtual-Slot-booking-avoid-crowd",
+      imgSrc: "/assets/all-projects/uixCaseStudy/1.png",
     },
     {
-      title: "Test2",
-      caseLink: "https://www.linkedin.com/in/mansi-kasar-363b19184/",
-      liveLink: "https://www.behance.net/mansikasar",
-      imgSrc: "/assets/recent-projects/2.jpg",
+      title: "proj.co",
+      caseLink: "/projects/uiux-casestudies/1",
+      liveLink:
+        "https://www.behance.net/gallery/123553665/Case-Study-Project-Collaboration-Website",
+      imgSrc: "/assets/all-projects/uixCaseStudy/2.png",
     },
     {
-      title: "Test3",
-      caseLink: "https://www.linkedin.com/in/mansi-kasar-363b19184/",
-      liveLink: "https://www.behance.net/mansikasar",
-      imgSrc: "/assets/recent-projects/3.jpg",
+      title: "Art Venture",
+      caseLink: "/projects/uiux-designs/0",
+      liveLink:
+        "https://www.behance.net/gallery/123976803/ART-VENTURE-Unique-art-collection-%28UIUX%29",
+      imgSrc: "/assets/all-projects/uiuxDesign/1.png",
     },
     {
-      title: "Test4",
-      caseLink: "https://www.linkedin.com/in/mansi-kasar-363b19184/",
-      liveLink: "https://www.behance.net/mansikasar",
-      imgSrc: "/assets/recent-projects/4.jpg",
+      title: "College Fynd",
+      caseLink: "/projects/uiux-designs/1",
+      liveLink:
+        "https://www.behance.net/gallery/123945887/CollegeFynd-Discover-your-perfect-college-and-course",
+      imgSrc: "/assets/all-projects/uiuxDesign/2.png",
     },
   ];
   return (
