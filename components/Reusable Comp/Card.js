@@ -24,9 +24,7 @@ const Card = (props) => {
         <div className="flex items-center space-x-2">
           <p className="font-medium">
             <Link href={props.caseLink}>
-              <a target="_blank" rel="noopener noreferrer">
-                View Project
-              </a>
+              <a>View Project</a>
             </Link>
           </p>
         </div>
