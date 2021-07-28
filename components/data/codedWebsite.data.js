@@ -3,8 +3,9 @@ export const codedWebsiteList = [
     id: 0,
     title: "Credit Card Validator",
     summary: "Validates credit card numbers using Lunh’s Algorithm test",
-    viewLink: "https://google.com",
-    gitLink: "https://github.com",
+    viewLink: "https://mansi-kasar-creditcard.netlify.app/",
+    gitLink:
+      "https://github.com/mansi-kasar/credit-card-validator-using-JavaScript",
     thumbnailSrc: "/assets/all-projects/codedWebsites/1.png",
   },
   // {
