@@ -7,7 +7,8 @@ export const uiuxCaseList = [
     summary: "Case study on a virtual slot booking application for college.",
     contentSrc: "/assets/all-projects/uixCaseStudy/eachCaseStudy/1.png",
     thumbnailSrc: "/assets/all-projects/uixCaseStudy/1.png",
-    videoUrl: "",
+    contentWidth: "3470",
+    contentHeight: "32700",
   },
   {
     id: 1,
@@ -16,7 +17,8 @@ export const uiuxCaseList = [
     contentSrc: "/assets/all-projects/uixCaseStudy/eachCaseStudy/2.png",
     thumbnailSrc: "/assets/all-projects/uixCaseStudy/2.png",
     videoUrl: "https://www.youtube.com/embed/6uc3PLBlEe0",
-    testUrl: "/test.pdf#zoom=25",
+    contentWidth: "3470",
+    contentHeight: "32700",
   },
   // {
   //   id: 2,
