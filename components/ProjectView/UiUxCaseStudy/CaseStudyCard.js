@@ -22,8 +22,8 @@ const CaseStudyCard = (props) => {
         <Image
           src={props.thumbnailSrc}
           alt={props.title}
-          width="464"
-          height="236"
+          width={464}
+          height={236}
           className="rounded-3xl"
           quality="100"
         />
