@@ -9,6 +9,8 @@ export const uiuxCaseList = [
     thumbnailSrc: "/assets/all-projects/uixCaseStudy/1.png",
     contentWidth: "3470",
     contentHeight: "32700",
+    thumbnailWidth: "2645",
+    thumbnailHeight: "2116",
   },
   {
     id: 1,
