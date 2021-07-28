@@ -7,12 +7,13 @@ const Card = (props) => {
       <div className="">
         <Image
           src={props.imgSrc}
-          width={540}
-          height={489}
+          width={720}
+          height={576}
           quality="100"
-          layout="intrinsic"
+          layout="responsive"
+          objectFit="cover"
           alt={props.title}
-          className=" rounded-3xl"
+          className="object-left rounded-3xl"
         />
       </div>
       <h1 className="text-lg font-semibold text-card md:text-2xl ">
