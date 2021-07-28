@@ -28,12 +28,13 @@ const CaseStudy = ({ singleCase }) => {
       <h1 className="text-xl font-medium text-exp lg:text-3xl">
         {singleCase.title}
       </h1>
+
       <Image
         src={singleCase.contentSrc}
         alt={singleCase.title}
         layout="responsive"
-        width={1400}
-        height={6000}
+        width={singleCase.contentWidth}
+        height={singleCase.contentHeight}
         quality={100}
       />
       <div className=" aspect-w-16 aspect-h-16 md:aspect-h-14 lg:aspect-h-9">
