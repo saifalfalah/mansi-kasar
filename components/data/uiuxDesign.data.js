@@ -9,6 +9,8 @@ export const uiuxDesignList = [
     textCont: "order-2 lg:order-none",
     imgCont: "order-1 lg:order-none",
     videoUrl: "https://www.youtube.com/embed/DEiVBwIavJo",
+    contentWidth: "1400",
+    contentHeight: "3729",
   },
   {
     id: 1,
@@ -20,6 +22,8 @@ export const uiuxDesignList = [
     textCont: "order-2",
     imgCont: "order-1",
     videoUrl: "https://www.youtube.com/embed/DEiVBwIavJo",
+    contentWidth: "1400",
+    contentHeight: "7664",
   },
   {
     id: 2,
@@ -30,6 +34,8 @@ export const uiuxDesignList = [
     textCont: "order-2 lg:order-none",
     imgCont: "order-1 lg:order-none",
     videoUrl: "https://www.youtube.com/embed/DEiVBwIavJo",
+    contentWidth: "1400",
+    contentHeight: "7003",
   },
   {
     id: 3,
@@ -40,6 +46,8 @@ export const uiuxDesignList = [
     textCont: "order-2",
     imgCont: "order-1",
     videoUrl: "https://www.youtube.com/embed/DEiVBwIavJo",
+    contentWidth: "1400",
+    contentHeight: "3126",
   },
   {
     id: 4,
@@ -50,5 +58,7 @@ export const uiuxDesignList = [
     textCont: "order-2 lg:order-none",
     imgCont: "order-1 lg:order-none",
     videoUrl: "https://www.youtube.com/embed/DEiVBwIavJo",
+    contentWidth: "1400",
+    contentHeight: "3996",
   },
 ];
