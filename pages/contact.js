@@ -11,7 +11,7 @@ const contact = () => {
             Contact <span className="text-brand">Me</span>
           </h1>
           <p className="text-xl text-center text-heroP lg:max-w-5xl lg:text-2xl ">
-            Feel free to reach out to me for any inqueries.
+            Feel free to reach out to me.
           </p>
         </div>
         <div className="flex flex-col items-center ">
