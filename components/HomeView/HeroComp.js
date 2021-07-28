@@ -31,8 +31,10 @@ const heroSection = () => {
               <span className="text-sm font-bold lg:text-base">Mail Me</span>
             </a>
           </Link>
-          <Link href="example.pdf">
+          <Link href="/mansiKasarResume.pdf">
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               download
               className="flex items-center px-4 py-2 space-x-2 border rounded-lg text-heroH border-brandOutline"
             >
