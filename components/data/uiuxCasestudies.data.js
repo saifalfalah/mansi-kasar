@@ -16,6 +16,7 @@ export const uiuxCaseList = [
     contentSrc: "/assets/all-projects/uixCaseStudy/eachCaseStudy/2.png",
     thumbnailSrc: "/assets/all-projects/uixCaseStudy/2.png",
     videoUrl: "https://www.youtube.com/embed/6uc3PLBlEe0",
+    testUrl: "/test.pdf#zoom=25",
   },
   // {
   //   id: 2,
