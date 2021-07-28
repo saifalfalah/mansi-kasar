@@ -30,14 +30,16 @@ const Design = ({ singleDesign }) => {
       <h1 className="text-xl font-medium text-exp lg:text-3xl">
         {singleDesign.title}
       </h1>
-      <Image
-        src={singleDesign.contentSrc}
-        alt="Picture of the author"
-        layout="responsive"
-        width={1266}
-        height={5500}
-        quality={100}
-      />
+      <div className="max-h-full">
+        <Image
+          src={singleDesign.contentSrc}
+          alt="Picture of the author"
+          layout="responsive"
+          width={singleDesign.contentWidth}
+          height={singleDesign.contentHeight}
+          quality={100}
+        />
+      </div>
       <div className=" aspect-w-16 aspect-h-16 md:aspect-h-14 lg:aspect-h-9">
         <iframe
           className="absolute inset-0 w-full h-full overflow-hidden"
