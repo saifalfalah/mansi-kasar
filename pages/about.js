@@ -6,7 +6,7 @@ import Meta from "../components/Layout/Meta";
 
 const about = () => {
   return (
-    <div className="p-8 lg:p-4 ">
+    <div className="py-8 lg:p-4 lg:px-0 ">
       <Meta title="Mansi K. | About" desc="Mani K UI/UX Portfolio" />
       <AboutMe />
       <ExperienceGrid />
