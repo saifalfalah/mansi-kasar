@@ -22,10 +22,16 @@ const DesignCard = (props) => {
       <div className={`max-w-md  max-h-60` + props.imgCont}>
         <Image
           src={props.thumbnailSrc}
-          width="464"
-          height="236"
           alt={props.title}
+          width={720}
+          height={576}
           className="rounded-3xl"
+          quality="100"
+
+          // width="464"
+          // height="236"
+
+          // className="rounded-3xl"
         />
       </div>
     </div>
