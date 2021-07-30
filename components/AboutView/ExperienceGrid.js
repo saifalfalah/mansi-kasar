@@ -1,6 +1,7 @@
 const ExperienceGrid = () => {
   return (
-    <div className=" bg-gradient-radial from-brandLight to-white">
+    // <div className=" bg-gradient-radial from-brandLight to-white">
+    <div className="opacity-100 bg-gradient-to-t from-white via-brandLight to-white">
       <div className="grid grid-cols-1 mx-auto md:grid-cols-2 text-heroH">
         <div className="border-b-2 border-dashed border-divider">
           <div className="flex flex-col mx-auto my-12 space-y-10 font-bold max-w-max lg:my-28">
