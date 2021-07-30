@@ -5,7 +5,7 @@ const codedWebsites = ({ data }) => {
   // console.log(data);
   return (
     <ProjectListLayout title="M K.|Coded Websites">
-      <div className="flex flex-col items-center space-y-20 lg:items-stretch lg:flex-col lg:space-y-28 ">
+      <div className="flex flex-col items-center space-y-20 lg:min-h-screen lg:items-stretch lg:flex-col lg:space-y-28">
         {data.map((items, index) => (
           <WebsitesCard key={index} {...items} />
         ))}
