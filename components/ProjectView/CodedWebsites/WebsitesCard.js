@@ -3,17 +3,21 @@ import Link from "next/link";
 import { FaGithub } from "react-icons/fa";
 const WebsitesCard = (props) => {
   return (
-    <div className="flex flex-col justify-between max-w-4xl font-poppins lg:flex-row">
-      <div className="max-w-sm max-h-56">
+    <div className="flex flex-col justify-between max-w-4xl mb-20 lg:gap-3 xl:gap-0 font-poppins lg:flex-row ">
+      <div className={`max-w-md  max-h-60` + props.imgCont}>
         <Image
           src={props.thumbnailSrc}
-          width="464"
-          height="236"
           alt={props.title}
+          // width="464"
+          // height="236"
+          // className="rounded-3xl"
+          width={720}
+          height={576}
           className="rounded-3xl"
+          quality="100"
         />
       </div>
-      <div className="max-w-sm space-y-5 lg:ml-9 xl:ml-0">
+      <div className={`max-w-xs space-y-5 `}>
         <h1 className="text-xl font-medium text-exp lg:text-3xl">
           {props.title}
         </h1>
