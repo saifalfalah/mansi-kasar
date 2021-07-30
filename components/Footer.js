@@ -2,40 +2,56 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="h-auto px-20 pt-20 pb-10 text-white bg-black lg:items-center lg:h-80 text lg:pt-24 lg:px-24 lg: ">
+      {/* <footer className="h-auto px-20 pt-20 pb-10 text-white bg-black lg:items-center lg:h-80 text lg:pt-24 lg:px-24 lg: "> */}
+      <footer className="flex items-center justify-center pt-10 text-white bg-black ">
         {/* main grid */}
-        <div className="grid grid-cols-1 gap-9 lg:grid-cols-4 ">
+        <div className="grid grid-cols-1 gap-6 lg:gap-20 lg:grid-cols-3 ">
           <div className="flex flex-col">
             <h1 className="mb-3 text-sm font-bold text-white font-cardo ">
               Mansi K.
             </h1>
             <div className="text-xs font-normal lg:text-sm font-roboto ">
-              <p className="mb-1 ">© 2010 — 2020</p>
-              <p className="">Privacy — Terms</p>
+              <p className="">UI/UX Designer</p>
             </div>
           </div>
-          {/* <div className="flex flex-col font-roboto">
-            <h1 className="mb-3 text-sm font-bold ">Latest Blog Post</h1>
-            <div className="text-xs font-normal lg:text-sm ">
-              <p className="w-40">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-          </div> */}
+
           <div className="flex flex-col font-roboto">
             <h1 className="mb-3 text-sm font-bold">Socials</h1>
-            <Link href="/">
-              <a className="mb-1 text-xs font-normal lg:text-sm">Instagram</a>
+            <Link href="https://www.instagram.com/man.si.my.art/">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-1 text-xs font-normal lg:text-sm"
+              >
+                Instagram
+              </a>
             </Link>
-            <Link href="/">
-              <a className="mb-1 text-xs font-normal lg:text-sm">Behance</a>
+            <Link href="https://www.behance.net/mansikasar">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-1 text-xs font-normal lg:text-sm"
+              >
+                Behance
+              </a>
             </Link>
-            <Link href="/">
-              <a className="mb-1 text-xs font-normal lg:text-sm">LinkedIn</a>
+            <Link href="https://www.linkedin.com/in/mansi-kasar-363b19184/">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mb-1 text-xs font-normal lg:text-sm"
+              >
+                LinkedIn
+              </a>
             </Link>
-            <Link href="/">
-              <a className="text-xs font-normal lg:text-sm">Youtube</a>
+            <Link href="https://www.youtube.com/channel/UCzUxG5w_pdgFm6RwoWp0fRw">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs font-normal lg:text-sm"
+              >
+                Youtube
+              </a>
             </Link>
           </div>
           <div className="">
