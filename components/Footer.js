@@ -3,9 +3,9 @@ const Footer = () => {
   return (
     <>
       {/* <footer className="h-auto px-20 pt-20 pb-10 text-white bg-black lg:items-center lg:h-80 text lg:pt-24 lg:px-24 lg: "> */}
-      <footer className="flex items-center justify-center pt-10 text-white bg-black ">
+      <footer className="flex items-center justify-center py-10 text-white bg-black ">
         {/* main grid */}
-        <div className="grid grid-cols-1 gap-6 lg:gap-20 lg:grid-cols-3 ">
+        <div className="grid grid-cols-1 gap-6 lg:gap-72 lg:grid-cols-3 ">
           <div className="flex flex-col">
             <h1 className="mb-3 text-sm font-bold text-white font-cardo ">
               Mansi K.
@@ -56,9 +56,11 @@ const Footer = () => {
           </div>
           <div className="">
             <h1 className="mb-3 text-sm font-bold font-roboto">Contact</h1>
-            <button className="w-20 p-3 font-bold text-black bg-white rounded-md text-xss font-poppins">
-              Mail me
-            </button>
+            <Link href="mailto:mansikasar5@gmail.com">
+              <a className="px-5 py-4 font-bold text-black bg-white rounded-md w-28 text-xss font-poppins">
+                Mail me
+              </a>
+            </Link>
           </div>
         </div>
       </footer>
