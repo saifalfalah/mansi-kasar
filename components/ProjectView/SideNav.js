@@ -11,7 +11,7 @@ import {
 const SideNav = () => {
   const sideNavItems = [
     {
-      name: "UI/UX Case Stuides",
+      name: "UI/UX Case Studies",
       path: "/projects/uiux-casestudies",
     },
     {
