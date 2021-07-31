@@ -76,7 +76,7 @@ const Navbar = () => {
                 Projects
               </a>
             </Link>
-            <Link href="https://medium.com">
+            <Link href="https://medium.com/@mansikasar">
               <a
                 className="items-center justify-center w-full p-2 mr-4 font-medium rounded font-poppins lg:w-auto"
                 target="_blank"
