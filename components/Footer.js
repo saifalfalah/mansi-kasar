@@ -60,6 +60,15 @@ const Footer = () => {
                 Youtube
               </a>
             </Link>
+            <Link href="https://medium.com/@mansikasar">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs font-normal lg:text-sm"
+              >
+                Blog
+              </a>
+            </Link>
           </div>
           <div className="flex flex-col">
             <h1 className="mb-3 text-sm font-bold font-roboto">Contact</h1>
