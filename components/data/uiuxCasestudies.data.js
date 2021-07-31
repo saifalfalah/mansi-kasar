@@ -11,6 +11,7 @@ export const uiuxCaseList = [
     contentHeight: "32700",
     thumbnailWidth: "2645",
     thumbnailHeight: "2116",
+    videoUrl: "https://www.youtube.com/embed/_yRBLKb0JtA",
   },
   {
     id: 1,

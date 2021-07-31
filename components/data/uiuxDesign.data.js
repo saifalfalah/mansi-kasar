@@ -8,7 +8,7 @@ export const uiuxDesignList = [
     thumbnailSrc: "/assets/all-projects/uiuxDesign/1.png",
     textCont: "order-2 lg:order-none",
     imgCont: "order-1 lg:order-none",
-    videoUrl: "https://www.youtube.com/embed/DEiVBwIavJo",
+    videoUrl: "https://www.youtube.com/embed/oIqsnKPRME0",
     contentWidth: "1400",
     contentHeight: "3729",
   },
