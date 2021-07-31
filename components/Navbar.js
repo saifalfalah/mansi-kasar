@@ -76,13 +76,10 @@ const Navbar = () => {
                 Projects
               </a>
             </Link>
-            <Link href="/projects">
+            <Link href="https://medium.com">
               <a
-                className={`items-center justify-center w-full p-2 mr-4 font-medium rounded font-poppins lg:w-auto ${
-                  router.pathname.startsWith("/projects")
-                    ? "text-brand"
-                    : "text-navItems "
-                }`}
+                className="items-center justify-center w-full p-2 mr-4 font-medium rounded font-poppins lg:w-auto"
+                target="_blank"
               >
                 Blog
               </a>
