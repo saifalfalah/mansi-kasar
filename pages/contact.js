@@ -1,5 +1,11 @@
 import Meta from "../components/Layout/Meta";
-import { FaLinkedin, FaBehance, FaYoutube, FaInstagram } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaBehance,
+  FaYoutube,
+  FaInstagram,
+  FaRegEnvelope,
+} from "react-icons/fa";
 import Link from "next/link";
 const contact = () => {
   return (
@@ -32,6 +38,11 @@ const contact = () => {
             />
           </svg>
           <div className="flex flex-col justify-between h-72">
+            <Link href="mailto:mansikasar5@gmail.com">
+              <a target="_blank" rel="noopener noreferrer">
+                <FaRegEnvelope className="text-3xl text-heroH" />
+              </a>
+            </Link>
             <Link href="https://www.linkedin.com/in/mansi-kasar-363b19184/">
               <a target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="text-3xl text-heroH" />
