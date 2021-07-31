@@ -31,7 +31,7 @@ const heroSection = () => {
               <span className="text-sm font-bold lg:text-base">Mail Me</span>
             </a>
           </Link>
-          <Link href="https://drive.google.com/file/d/1em4rh8DDwHhE3utD9l19BZX-DfUBB-su/view?usp=sharingf">
+          <Link href="https://drive.google.com/file/d/14HPvVyy-DY3KS4Fd3KUORTcAVOgYuqjF/view?usp=sharing">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -40,7 +40,7 @@ const heroSection = () => {
             >
               <FiDownload className="text-xl" />
               <span className="text-sm font-bold lg:text-base ">
-                Download CV
+                Download Resume
               </span>
             </a>
           </Link>

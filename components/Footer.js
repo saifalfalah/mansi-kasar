@@ -13,6 +13,13 @@ const Footer = () => {
             <div className="text-xs font-normal lg:text-sm font-roboto ">
               <p className="">UI/UX Designer</p>
             </div>
+            <div className="mt-4">
+              <Link href="https://drive.google.com/file/d/14HPvVyy-DY3KS4Fd3KUORTcAVOgYuqjF/view?usp=sharing">
+                <a className="px-5 py-4 font-bold text-black bg-white rounded-md w-28 text-xss font-poppins">
+                  Download Resume
+                </a>
+              </Link>
+            </div>
           </div>
 
           <div className="flex flex-col font-roboto">
@@ -54,7 +61,7 @@ const Footer = () => {
               </a>
             </Link>
           </div>
-          <div className="">
+          <div className="flex flex-col">
             <h1 className="mb-3 text-sm font-bold font-roboto">Contact</h1>
             <Link href="mailto:mansikasar5@gmail.com">
               <a className="px-5 py-4 font-bold text-black bg-white rounded-md w-28 text-xss font-poppins">
