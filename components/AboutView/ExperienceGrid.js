@@ -21,7 +21,7 @@ const ExperienceGrid = () => {
         </div>
         <div className="border-b-2 border-dashed border-divider md:border-none">
           <div className="flex flex-col mx-auto my-12 space-y-10 font-bold max-w-max lg:my-28">
-            <h1 className="text-4xl lg:text-6xl w-28 font-poppins">1.5</h1>
+            <h1 className="text-4xl lg:text-6xl w-28 font-poppins">2</h1>
             <p className="max-w-xs font-sans text-2xl lg:text-3xl ">
               Years of Experience in the field of UI/UX.
             </p>
