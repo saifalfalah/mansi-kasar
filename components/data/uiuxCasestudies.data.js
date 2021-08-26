@@ -2,6 +2,16 @@
 //thumbnailsrc= thumbnail for uiux case study index page
 export const uiuxCaseList = [
   {
+    id: 2,
+    title: "b2b-redesign",
+    summary: "Case study on a project collaboration website.",
+    contentSrc: "/assets/all-projects/uixCaseStudy/eachCaseStudy/2.png",
+    thumbnailSrc: "/assets/all-projects/uixCaseStudy/2.png",
+    videoUrl: "https://www.youtube.com/embed/6uc3PLBlEe0",
+    contentWidth: "3470",
+    contentHeight: "32700",
+  },
+  {
     id: 0,
     title: "noQ",
     summary: "Case study on a virtual slot booking application for college.",
